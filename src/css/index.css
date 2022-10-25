@@ -55,3 +55,8 @@
 .home__trusted-star {
   @apply inline-flex text-[1.2rem] text-yellow-400;
 }
+
+/* ===== ::SELECTION ===== */
+::selection {
+  @apply bg-purple-700 text-white;
+}
