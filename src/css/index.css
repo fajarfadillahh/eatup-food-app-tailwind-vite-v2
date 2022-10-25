@@ -39,8 +39,13 @@
 .header__link {
   @apply text-[15px] text-gray-900 font-medium uppercase hover:text-purple-700;
 }
+/* SHOW MENU */
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
+}
+/* STICKY HEADER */
+.header.sticky-action {
+  @apply shadow-[0_2px_12px_rgba(0,0,0,0.1)];
 }
 
 /* ===== HOME SECTION ===== */
